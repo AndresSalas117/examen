@@ -1,0 +1,60 @@
+*{
+    margin:10;
+    padding: 10;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/presentacion.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: fixed;
+    top: 36%;
+
+}
+header>.texto-principal{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.titulo-principal{
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 60px;
+
+}
+.titulo-secundario{
+    font-family: "roboto",sans-serif;
+    color: white;
+    font-size: 40px;
+}
+@media screen and (min-width:700px) and (max-width:1024px){
+    head{
+        width: 50%;
+    }
+    .caja{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:480px) and (max-width:700px){
+    head,.caja{
+       width: 50%;
+    }
+    
+}
+@media screen and (max-width:480px){
+    head{
+        height: 80px;
+    }
+
+    .caja{
+        width: 100%;
+    }
+    
+}

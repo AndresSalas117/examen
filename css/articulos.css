@@ -1,0 +1,118 @@
+header{
+    font-family: "roboto",sans-serif;
+    height: 100px;
+}
+h1{
+    float: left;
+}
+.caralibro{
+    width: 27px;
+    height: 26px;
+}
+.kaka{
+    width: 27px;
+    height: 26px;
+}
+.toxico{
+    width: 27px;
+    height: 26px;
+}
+.menu{
+    float: right;
+    padding-top: 0.5em;
+    top: 10px;
+
+}
+.menu>a{
+    padding-top: -25px;
+    padding-right: 20px;
+}
+.imagen{
+    margin-left: -15px;
+    margin-top: 20px;
+    background-position: center;
+    width: 400px; 
+    height: 200px;
+}
+.imagen-2{
+    margin-left: 15px;
+    margin-top: 20px;
+    background-position: center;
+    width: 400px; 
+    height: 200px;
+
+}
+.imagen-3{
+    margin-left: 15px;
+    margin-top: 20px;
+    background-position: center;
+    width: 400px; 
+    height: 200px;
+
+}
+#articulos h3,h4{
+    text-align: center;
+}
+#articulos .contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: 15px;
+
+}
+#articulos article{
+    margin: 15px;
+}
+#articulos img {
+
+    max-width: 280px;
+    padding-left: 15px;
+
+}
+.letrero-1{
+
+text-align: justify;
+
+}
+.caja-1{
+    padding-left:150px;
+} 
+    .letrero-2{
+text-align: justify;
+
+    }
+    .caja-2{
+        padding-left: 150px;
+
+    }
+    .letrero-3{
+text-align: justify;
+
+    }
+    .caja-3{
+padding-left: 60px;
+    }
+    @media screen and (min-width:700px) and (max-width:1024px){
+        head{
+            width: 50%;
+        }
+        .articulos{
+            width: 50%;
+        }
+
+    }
+    @media screen and (min-width:480px) and (max-width:700px){
+        head,.articulos{
+           width: 50%;
+        }
+        
+    }
+    @media screen and (max-width:480px){
+        head{
+            height: 80px;
+        }
+
+        .articulos{
+            width: 100%;
+        }
+        
+    }

@@ -1,0 +1,95 @@
+header{
+    font-family: "roboto",sans-serif;
+    height: 100px;
+}
+h1{
+    float: left;
+}
+.caralibro{
+    width: 27px;
+    height: 26px;
+}
+.kaka{
+    width: 27px;
+    height: 26px;
+}
+.toxico{
+    width: 27px;
+    height: 26px;
+}
+.menu{
+    float: right;
+    padding-top: 0.5em;
+    top: 10px;
+
+}
+.menu>a{
+    padding-top: -25px;
+    padding-right: 20px;
+}
+.contacto{
+ padding-left: 1010px;
+}
+.map{
+   padding-top: -700px;
+
+}
+.texto-1{
+    font-family: "roboto"sans-serif;
+    margin-top: 40px;
+    padding-left: -1000px;
+}
+.texto-2{
+    font-family: "roboto"sans-serif;
+    margin-top: 50px;
+}
+.letrero{
+    margin-top: -40px;
+    padding-top: -1200px;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid black;
+    resize: none; 
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px,brown;
+ 
+    background: #e4f1f6; 
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+    
+}
+@media screen and (min-width:700px) and (max-width:1024px){
+    head{
+        width: 50%;
+    }
+    .contacto{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:480px) and (max-width:700px){
+    head,.contacto{
+       width: 50%;
+    }
+    
+}
+@media screen and (max-width:480px){
+    head{
+        height: 80px;
+    }
+
+    .contacto{
+        width: 100%;
+    }
+    
+}

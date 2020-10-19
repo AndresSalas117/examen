@@ -1,0 +1,114 @@
+*{
+    margin:10;
+    padding: 10;
+    box-sizing: border-box;
+}
+header{
+    font-family: "roboto",sans-serif;
+    height: 100px;
+}
+h1{
+    float: left;
+}
+.caralibro{
+    width: 27px;
+    height: 26px;
+}
+.kaka{
+    width: 27px;
+    height: 26px;
+}
+.toxico{
+    width: 27px;
+    height: 26px;
+}
+.menu{
+    float: right;
+    padding-top: 0.5em;
+    top: 10px;
+
+}
+.menu>a{
+    padding-top: -25px;
+    padding-right: 20px;
+}
+.caja{
+    width: 1520px;
+    height: 320px;
+    border: 0.3pc solid black;
+    background-image: url(../img/inicio.jpg);
+  background-position: center;
+    
+}
+.caja-2{
+    width: 700px;
+    height: 300px;
+    border: 0.3pc solid black;
+    background-image: url(../img/inicio2.jpg);
+    background-position: center;
+    float: left;
+    margin-top: 10px;
+}
+.caja-3{
+    width: 700px;
+    height: 300px;
+    border: 0.3pc solid black;
+    background-image: url(../img/inicio3.jpg);
+    background-position: center;
+    float: right;
+    margin-top: 10px;
+}
+.letras{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 60px;
+
+}
+.sub{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.letras-2{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+     text-align: left;
+     font-size: 60px;
+}
+.letras-3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    background-color: red;
+    font-size: 40px;
+    height: 90px;
+   
+}
+@media screen and (min-width:700px) and (max-width:1024px){
+    head{
+        width: 50%;
+    }
+    .caja{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:480px) and (max-width:700px){
+    head,.caja{
+       width: 50%;
+    }
+    
+}
+@media screen and (max-width:480px){
+    head{
+        height: 80px;
+    }
+
+    .caja{
+        width: 100%;
+    }
+    
+}
+
